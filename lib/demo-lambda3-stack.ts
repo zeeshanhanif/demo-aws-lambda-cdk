@@ -12,5 +12,6 @@ export class DemoLambda3Stack extends cdk.Stack {
       code: lambda.Code.fromAsset('lambda'),
       handler: "demo.handler"
     });
+    console.log("Output");
   }
 }
